@@ -1,0 +1,28 @@
+name: langchain
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - pandas
+  - geopandas
+  - jupyterlab
+  - matplotlib
+  - ipywidgets
+  - pyrosm
+  - shapely
+  - pyproj
+  - fiona
+  - requests
+  - psycopg2
+  - sqlalchemy
+  - polyline
+  - openpyxl
+  - rapidfuzz
+  - feedparser
+  - beautifulsoup4
+  - openai
+  - langchain
+  - langchain-community
+  - langchain-openai
+  - pip

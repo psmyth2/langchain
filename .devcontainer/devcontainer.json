@@ -1,0 +1,14 @@
+{
+  "name": "langchain",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "workspaceFolder": "/app",
+  "runArgs": [
+    "-v", "${localWorkspaceFolder}:/app"
+  ],
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+}
