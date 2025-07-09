@@ -21,6 +21,7 @@ dependencies:
   - rapidfuzz
   - feedparser
   - beautifulsoup4
+  - pydantic
   - openai
   - langchain
   - langchain-community
