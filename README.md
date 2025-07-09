@@ -54,7 +54,7 @@ To configure your environment:
    cp example_config.ini config.ini
    ```
 
-2. Edit `example_config.ini` and fill in your keys, rename the file to `config.ini`:
+2. Edit `config.ini` and fill in your keys:
 
    ```ini
    [langsmith]
