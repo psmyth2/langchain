@@ -3,6 +3,10 @@ FROM mambaorg/micromamba:1.5.5
 # Set working directory
 WORKDIR /app
 
+# Install git via apt
+USER root
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+
 # Copy environment file and create environment
 COPY environment.yml .
 RUN micromamba env create -f environment.yml -n langchain && \
