@@ -16,7 +16,6 @@ dependencies:
   - requests
   - psycopg2
   - sqlalchemy
-  - polyline
   - openpyxl
   - rapidfuzz
   - feedparser
@@ -26,4 +25,5 @@ dependencies:
   - langchain
   - langchain-community
   - langchain-openai
+  - streamlit
   - pip
